@@ -19,5 +19,14 @@ const emojipedia = [
     name: "Rolling On The Floor, Laughing",
     meaning:
       "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“."
+  },
+  {
+    id: 4,
+    emoji: "✍ ",
+    name: "Writing Hand",
+    meaning:
+      "Right hand writing with a pen. Is related to writing. I'll contact you and write a message to you. There will be a test in school. You're writing a poem for your honey."
   }
 ];
+
+export default emojipedia;
