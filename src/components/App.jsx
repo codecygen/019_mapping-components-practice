@@ -2,6 +2,20 @@ import React from "react";
 import emojipedia from '../emojipedia';
 import Card from './Card';
 
+// if you dont pass a key element it creates problem says
+// Each child in a list should have a unique "key" prop
+// Alternatively you can pass each elements individually
+// const createCard = (emojiCard, index) => {
+//   return(
+//     <Card 
+//       key={emojiCard.id}
+//       emoji={emojiCard.emoji}
+//       name={emojiCard.name}
+//       meaning={emojiCard.meaning}
+//     />
+//   );
+// }
+
 const createCard = (emojiCard, index) => {
   return(
     <Card 
